@@ -22,7 +22,7 @@ jobs:
       - name: Build 
         run: |
           npm i
-          npx playwright install
+          npx playwright install --with-deps
           npm run build
  
       - name: Run Tests Locally

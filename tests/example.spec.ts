@@ -8,7 +8,7 @@ test.describe('Add fruit', () => {
   test('Should contain 3 elements on the list and a fruit called test', async ({ page }) => {
     const fruitAdded = {name: 'test'}
     
-    await page.locator('input').click();
+    await page.locator('renato').click();
     
     await page.locator('input').fill('test');
     
