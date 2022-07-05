@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test'
 
 test.beforeEach(async ({ page }) => {
-  await page.goto('https://playwright-test-six.vercel.app/');
+  await page.goto(process.env.VERCEL_URL || 'http://localhost:3000');
 });
 
 test.describe('Add fruit', () => {
