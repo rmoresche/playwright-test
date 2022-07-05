@@ -27,7 +27,6 @@ jobs:
  
       - name: Run Tests Locally
         run: |
-          npm start
           npm run test:e2e
  
       - name: Deploy to Staging 
