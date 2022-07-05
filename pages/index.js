@@ -9,7 +9,7 @@ const Home = () => {
       name: "apple"
     }, 
     {
-      name: "orange"
+      name: "orang"
     }
   ])
 
